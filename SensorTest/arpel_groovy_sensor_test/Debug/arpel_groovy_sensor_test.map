@@ -1,0 +1,1141 @@
+Archive member included because of file (symbol)
+
+D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+                              ./example/src/sensor_test_main.o (Board_LED_Set)
+D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+                              ./example/src/sysinit.o (Board_SystemInit)
+D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+                              ./example/src/sensor_test_main.o (ow_init)
+D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(crc8.o)
+                              D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o) (crc8)
+D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(chip_8xx.o)
+                              ./example/src/sensor_test_main.o (SystemCoreClock)
+D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+                              D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o) (Chip_Clock_SetSystemPLLSource)
+D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+                              D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o) (Chip_GPIO_Init)
+D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(swm_8xx.o)
+                              D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o) (Chip_SWM_MovablePinAssign)
+D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(syscon_8xx.o)
+                              D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o) (Chip_SYSCTL_PowerDown)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr__main.o)
+                              ./example/src/cr_startup_lpc8xx.o (__main)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr__main.o) (_initio)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(setvbuf.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o) (setvbuf)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o) (__Ciob)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o) (memset)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o) (__filbuf)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o) (_deferredlazyseek)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fdopen.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o) (_fdopen)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fflush.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o) (_fflush)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_writebuf.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o) (_Cwritebuf)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o) (_Csys_alloc)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o) (fclose)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fflush.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o) (fflush)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fseek.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o) (fseek)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ftell.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fseek.o) (ftell)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o) (remove)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(strlen.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o) (strlen)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o) (memcpy)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o) (__heaps)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_do_fflush.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fflush.o) (_do_fflush)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(errno.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ftell.o) (errno)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(division.o)
+                              ./example/src/sensor_test_main.o (__aeabi_uidiv)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(memcpy.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o) (__aeabi_memcpy)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_appexit.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o) (__sys_appexit)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_close.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o) (__sys_close)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_flen.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_writebuf.o) (__sys_flen)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_istty.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o) (__sys_istty)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_read.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o) (__sys_read)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_remove.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o) (__sys_remove)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_rename.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o) (__sys_rename)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_seek.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o) (__sys_seek)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_tmpnam.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o) (__sys_tmpnam)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr_sbrk.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o) (_sbrk)
+d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr_check_heap.o)
+                              d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr_sbrk.o) (__check_heap_overflow)
+
+Allocating common symbols
+Common symbol       size              file
+
+_extra              0x4               d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+OW_sensorList       0x20              ./example/src/sensor_test_main.o
+SystemCoreClock     0x4               D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(chip_8xx.o)
+temperature         0x8               ./example/src/sensor_test_main.o
+sensor_counter      0x1               ./example/src/sensor_test_main.o
+sctTick             0x4               ./example/src/sensor_test_main.o
+t_val               0x2               ./example/src/sensor_test_main.o
+__heaps             0x4               d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+__end_of_heap       0x4               d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+__Ciob              0x140             d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ./example/src/cr_startup_lpc8xx.o
+ .data          0x00000000        0x0 ./example/src/cr_startup_lpc8xx.o
+ .bss           0x00000000        0x0 ./example/src/cr_startup_lpc8xx.o
+ .text          0x00000000        0x0 ./example/src/crp.o
+ .data          0x00000000        0x0 ./example/src/crp.o
+ .bss           0x00000000        0x0 ./example/src/crp.o
+ .text          0x00000000        0x0 ./example/src/mtb.o
+ .data          0x00000000        0x0 ./example/src/mtb.o
+ .bss           0x00000000        0x0 ./example/src/mtb.o
+ .text          0x00000000        0x0 ./example/src/sensor_test_main.o
+ .data          0x00000000        0x0 ./example/src/sensor_test_main.o
+ .bss           0x00000000        0x0 ./example/src/sensor_test_main.o
+ .text          0x00000000        0x0 ./example/src/sysinit.o
+ .data          0x00000000        0x0 ./example/src/sysinit.o
+ .bss           0x00000000        0x0 ./example/src/sysinit.o
+ .text          0x00000000        0x0 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .data          0x00000000        0x0 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .bss           0x00000000        0x0 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .text.Chip_Clock_EnablePeriphClock
+                0x00000000       0x34 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .text.Chip_Clock_DisablePeriphClock
+                0x00000000       0x34 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .text.Chip_Clock_SetUARTClockDiv
+                0x00000000       0x1c D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .text.Chip_SWM_DisableFixedPin
+                0x00000000       0x38 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .text.Chip_GPIO_GetPinState
+                0x00000000       0x30 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .text.__sys_readc
+                0x00000000       0x10 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .text.Board_UART_Init
+                0x00000000       0x30 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .text.Board_LED_Test
+                0x00000000       0x38 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .text.Board_UARTPutChar
+                0x00000000       0x14 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .text.Board_UARTGetChar
+                0x00000000       0x10 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .text.Board_UARTPutSTR
+                0x00000000       0x10 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .text.Board_Debug_Init
+                0x00000000        0x8 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .text          0x00000000        0x0 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .data          0x00000000        0x0 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .bss           0x00000000        0x0 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .text          0x00000000        0x0 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .data          0x00000000        0x0 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .bss           0x00000000        0x0 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text.ow_read_rom
+                0x00000000       0x68 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text.ow_convertTemp
+                0x00000000       0x30 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text.ow_read_scratchpad
+                0x00000000       0x74 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text.ow_read_power
+                0x00000000       0x48 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text          0x00000000        0x0 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(crc8.o)
+ .data          0x00000000        0x0 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(crc8.o)
+ .bss           0x00000000        0x0 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(crc8.o)
+ .text          0x00000000        0x0 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(chip_8xx.o)
+ .data          0x00000000        0x0 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(chip_8xx.o)
+ .bss           0x00000000        0x0 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(chip_8xx.o)
+ .text          0x00000000        0x0 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .data          0x00000000        0x0 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .bss           0x00000000        0x0 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .text.Chip_Clock_SetPLLBypass
+                0x00000000       0x48 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .text          0x00000000        0x0 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .data          0x00000000        0x0 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .bss           0x00000000        0x0 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .text.Chip_Clock_DisablePeriphClock
+                0x00000000       0x34 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .text.Chip_GPIO_SetPinDIROutput
+                0x00000000       0x48 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .text.Chip_GPIO_SetPinDIRInput
+                0x00000000       0x48 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .text.Chip_GPIO_SetPortDIROutput
+                0x00000000       0x40 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .text.Chip_GPIO_SetPortDIRInput
+                0x00000000       0x40 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .text.Chip_GPIO_DeInit
+                0x00000000       0x14 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .text.Chip_GPIO_WriteDirBit
+                0x00000000       0x84 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .text.Chip_GPIO_SetPinDIR
+                0x00000000       0x54 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .text.Chip_GPIO_SetDir
+                0x00000000       0x80 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .text.Chip_GPIO_SetPortDIR
+                0x00000000       0x54 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .text          0x00000000        0x0 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(swm_8xx.o)
+ .data          0x00000000        0x0 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(swm_8xx.o)
+ .bss           0x00000000        0x0 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(swm_8xx.o)
+ .text.Chip_SWM_EnableFixedPin
+                0x00000000       0x38 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(swm_8xx.o)
+ .text.Chip_SWM_DisableFixedPin
+                0x00000000       0x38 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(swm_8xx.o)
+ .text.Chip_SWM_MovablePinAssign
+                0x00000000       0x64 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(swm_8xx.o)
+ .text.Chip_SWM_FixedPinEnable
+                0x00000000       0x38 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(swm_8xx.o)
+ .text          0x00000000        0x0 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(syscon_8xx.o)
+ .data          0x00000000        0x0 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(syscon_8xx.o)
+ .bss           0x00000000        0x0 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(syscon_8xx.o)
+ .text.Chip_SYSCTL_SetDeepSleepPD
+                0x00000000       0x28 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(syscon_8xx.o)
+ .text.Chip_SYSCTL_SetWakeup
+                0x00000000       0x2c D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(syscon_8xx.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr__main.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr__main.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr__main.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+ .text._terminateio
+                0x00000000       0x3c d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(setvbuf.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(setvbuf.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(setvbuf.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text.fgetc    0x00000000       0x1e d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text.fputc    0x00000000       0x1e d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text.getc     0x00000000       0x1e d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text.getchar  0x00000000       0x24 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text.putc     0x00000000       0x1e d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text.putchar  0x00000000       0x28 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text.feof     0x00000000        0x8 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text.ferror   0x00000000        0x8 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text.clearerr
+                0x00000000       0x10 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o)
+ .text._Csys_read_
+                0x00000000       0x22 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o)
+ .text.__filbuf
+                0x00000000      0x184 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o)
+ .text._fillb2  0x00000000       0x1c d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o)
+ .text.__flsbuf
+                0x00000000      0x154 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fdopen.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fdopen.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fdopen.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fflush.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fflush.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fflush.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_writebuf.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_writebuf.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_writebuf.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+ .text.calloc   0x00000000       0x52 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+ .text.realloc  0x00000000       0x26 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fflush.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fflush.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fflush.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fseek.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fseek.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fseek.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ftell.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ftell.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ftell.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o)
+ .text.rename   0x00000000       0x28 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(strlen.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(strlen.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(strlen.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .text.memcpy   0x00000000        0x8 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .text._init_alloc
+                0x00000000       0x14 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_do_fflush.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_do_fflush.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_do_fflush.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(errno.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(errno.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(errno.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(division.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(division.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_idivmod
+                0x00000000        0x6 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_uldivmod
+                0x00000000       0x5a d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_ldivmod
+                0x00000000       0x32 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_ldiv0
+                0x00000000        0x2 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(division.o)
+ .text.__aeabi_division_idivq31+15
+                0x00000000      0x188 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(division.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memcpy
+                0x00000000       0x2c d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memmove
+                0x00000000       0x1c d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memclr
+                0x00000000        0x6 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text.__aeabi_memset
+                0x00000000        0x8 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_appexit.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_appexit.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_appexit.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_close.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_close.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_close.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_flen.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_flen.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_flen.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_istty.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_istty.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_istty.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_read.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_read.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_read.o)
+ .text.__sys_read
+                0x00000000        0x4 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_read.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_remove.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_remove.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_remove.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_rename.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_rename.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_rename.o)
+ .text.__sys_rename
+                0x00000000        0x6 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_rename.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_seek.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_seek.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_seek.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_tmpnam.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_tmpnam.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_tmpnam.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr_sbrk.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr_sbrk.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr_sbrk.o)
+ .text          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr_check_heap.o)
+ .data          0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr_check_heap.o)
+ .bss           0x00000000        0x0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr_check_heap.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+MFlash16         0x00000000         0x00004000         xr
+RamLoc4          0x10000000         0x00001000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./example/src/cr_startup_lpc8xx.o
+LOAD ./example/src/crp.o
+LOAD ./example/src/mtb.o
+LOAD ./example/src/sensor_test_main.o
+LOAD ./example/src/sysinit.o
+LOAD D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a
+LOAD D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a
+START GROUP
+LOAD d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a
+LOAD d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a
+LOAD d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a
+END GROUP
+                0x00004000                __top_MFlash16 = 0x4000
+                0x10001000                __top_RamLoc4 = 0x10001000
+
+.text           0x00000000     0x2500
+ FILL mask 0xff
+                0x00000000                __vectors_start__ = ABSOLUTE (.)
+ *(.isr_vector)
+ .isr_vector    0x00000000       0xc0 ./example/src/cr_startup_lpc8xx.o
+                0x00000000                g_pfnVectors
+                0x000000c0                . = ALIGN (0x4)
+                0x000000c0                __section_table_start = .
+                0x000000c0                __data_section_table = .
+                0x000000c0        0x4 LONG 0x2500 LOADADDR (.data)
+                0x000000c4        0x4 LONG 0x10000020 ADDR (.data)
+                0x000000c8        0x4 LONG 0x4 SIZEOF (.data)
+                0x000000cc                __data_section_table_end = .
+                0x000000cc                __bss_section_table = .
+                0x000000cc        0x4 LONG 0x10000028 ADDR (.bss)
+                0x000000d0        0x4 LONG 0x1bc SIZEOF (.bss)
+                0x000000d4                __bss_section_table_end = .
+                0x000000d4                __section_table_end = .
+ *(.after_vectors*)
+ .after_vectors
+                0x000000d4       0x80 ./example/src/cr_startup_lpc8xx.o
+                0x000000d4                NMI_Handler
+                0x000000d8                HardFault_Handler
+                0x000000dc                PendSV_Handler
+                0x000000e4                data_init
+                0x000000f6                bss_init
+                0x00000108                ResetISR
+                0x0000014c                SVCall_Handler
+                0x00000150                PININT1_IRQHandler
+                0x00000150                PININT2_IRQHandler
+                0x00000150                UART1_IRQHandler
+                0x00000150                UART0_IRQHandler
+                0x00000150                WKT_IRQHandler
+                0x00000150                SPI1_IRQHandler
+                0x00000150                PININT7_IRQHandler
+                0x00000150                CMP_IRQHandler
+                0x00000150                PININT3_IRQHandler
+                0x00000150                UART2_IRQHandler
+                0x00000150                PININT5_IRQHandler
+                0x00000150                PININT4_IRQHandler
+                0x00000150                PININT0_IRQHandler
+                0x00000150                BOD_IRQHandler
+                0x00000150                I2C_IRQHandler
+                0x00000150                WDT_IRQHandler
+                0x00000150                PININT6_IRQHandler
+                0x00000150                SPI0_IRQHandler
+                0x00000150                IntDefaultHandler
+                0x00000150                FLASH_IRQHandler
+                0x000002fc                . = 0x2fc
+ *fill*         0x00000154      0x1a8 ff
+                0x000002fc                PROVIDE (__CRP_WORD_START__, .)
+ *(.crp)
+ .crp           0x000002fc        0x4 ./example/src/crp.o
+                0x000002fc                CRP_WORD
+                0x00000300                PROVIDE (__CRP_WORD_END__, .)
+                0x00000001                ASSERT (! ((__CRP_WORD_START__ == __CRP_WORD_END__)), Linker CRP Enabled, but no CRP_WORD provided within application)
+ *(.text*)
+ .text.NVIC_SetPriority
+                0x00000300       0xe0 ./example/src/sensor_test_main.o
+ .text.SysTick_Config
+                0x000003e0       0x4c ./example/src/sensor_test_main.o
+ .text.Chip_GPIO_SetPinState
+                0x0000042c       0x34 ./example/src/sensor_test_main.o
+ .text.Chip_GPIO_SetPinDIROutput
+                0x00000460       0x48 ./example/src/sensor_test_main.o
+ .text.SysTick_Handler
+                0x000004a8       0x88 ./example/src/sensor_test_main.o
+                0x000004a8                SysTick_Handler
+ .text.main     0x00000530       0x74 ./example/src/sensor_test_main.o
+                0x00000530                main
+ .text.SystemInit
+                0x000005a4        0xc ./example/src/sysinit.o
+                0x000005a4                SystemInit
+ .text.Chip_GPIO_SetPinState
+                0x000005b0       0x34 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .text.Chip_GPIO_SetPinDIROutput
+                0x000005e4       0x48 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .text.Chip_GPIO_SetPinToggle
+                0x0000062c       0x34 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .text.__sys_write
+                0x00000660       0x18 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+                0x00000660                __sys_write
+ .text.Board_LED_Init
+                0x00000678       0x50 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .text.Board_LED_Set
+                0x000006c8       0x3c D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+                0x000006c8                Board_LED_Set
+ .text.Board_LED_Toggle
+                0x00000704       0x2c D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+                0x00000704                Board_LED_Toggle
+ .text.Board_Init
+                0x00000730       0x18 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+                0x00000730                Board_Init
+ .text.Chip_Clock_SetupSystemPLL
+                0x00000748       0x34 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .text.Chip_Clock_IsSystemPLLLocked
+                0x0000077c       0x1c D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .text.Chip_Clock_SetSysClockDiv
+                0x00000798       0x18 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .text.Chip_Clock_EnablePeriphClock
+                0x000007b0       0x34 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .text.Chip_Clock_DisablePeriphClock
+                0x000007e4       0x34 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .text.Chip_FMC_SetFLASHAccess
+                0x00000818       0x2c D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .text.SystemSetupClocking
+                0x00000844       0x54 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .text.SystemSetupMuxing
+                0x00000898       0x40 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .text.Board_SystemInit
+                0x000008d8       0x1c D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+                0x000008d8                Board_SystemInit
+ .text.NVIC_EnableIRQ
+                0x000008f4       0x2c D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text.Chip_SYSCTL_AssertPeriphReset
+                0x00000920       0x30 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text.Chip_SYSCTL_DeassertPeriphReset
+                0x00000950       0x30 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text.Chip_SYSCTL_PeriphReset
+                0x00000980       0x28 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text.Chip_Clock_EnablePeriphClock
+                0x000009a8       0x34 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text.Chip_GPIO_SetPinState
+                0x000009dc       0x34 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text.Chip_GPIO_GetPinState
+                0x00000a10       0x30 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text.Chip_GPIO_SetPinDIROutput
+                0x00000a40       0x48 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text.Chip_GPIO_SetPinDIRInput
+                0x00000a88       0x48 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text.Chip_MRT_Init
+                0x00000ad0       0x14 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text.Chip_MRT_SetInterval
+                0x00000ae4       0x18 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text.Chip_MRT_SetEnabled
+                0x00000afc       0x1c D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text.Chip_MRT_SetMode
+                0x00000b18       0x2c D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text.Chip_MRT_IntClear
+                0x00000b44       0x1c D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text.Chip_MRT_ClearIntPending
+                0x00000b60       0x1c D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .text.ow_init  0x00000b7c       0x3c D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+                0x00000b7c                ow_init
+ .text.ow_reset
+                0x00000bb8       0xa4 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+                0x00000bb8                ow_reset
+ .text.ow_write
+                0x00000c5c       0xc8 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+                0x00000c5c                ow_write
+ .text.ow_read  0x00000d24       0xb0 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+                0x00000d24                ow_read
+ .text.ow_write_bit
+                0x00000dd4       0x84 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+                0x00000dd4                ow_write_bit
+ .text.ow_read_bit
+                0x00000e58       0x80 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+                0x00000e58                ow_read_bit
+ .text.ow_wait_conv
+                0x00000ed8       0x88 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+                0x00000ed8                ow_wait_conv
+ .text.MRT_IRQHandler
+                0x00000f60      0x5a8 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+                0x00000f60                MRT_IRQHandler
+ .text.ow_read_temp
+                0x00001508      0x124 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+                0x00001508                ow_read_temp
+ .text.ow_srch_next
+                0x0000162c      0x22c D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+                0x0000162c                ow_srch_next
+ .text.ow_srch_first
+                0x00001858       0x30 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+                0x00001858                ow_srch_first
+ .text.ow_find_devices
+                0x00001888       0x58 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+                0x00001888                ow_find_devices
+ .text.crc8     0x000018e0       0xe8 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(crc8.o)
+                0x000018e0                crc8
+ .text.SystemCoreClockUpdate
+                0x000019c8       0x18 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(chip_8xx.o)
+                0x000019c8                SystemCoreClockUpdate
+ .text.Chip_Clock_GetMainOscRate
+                0x000019e0       0x14 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .text.Chip_Clock_GetIntOscRate
+                0x000019f4       0x10 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .text.Chip_Clock_GetExtClockInRate
+                0x00001a04       0x14 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .text.Chip_Clock_GetWDTLFORate
+                0x00001a18       0x48 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .text.Chip_Clock_GetPLLFreq
+                0x00001a60       0x24 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .text.Chip_Clock_SetSystemPLLSource
+                0x00001a84       0x2c D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+                0x00001a84                Chip_Clock_SetSystemPLLSource
+ .text.Chip_Clock_SetMainClockSource
+                0x00001ab0       0x2c D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+                0x00001ab0                Chip_Clock_SetMainClockSource
+ .text.Chip_Clock_SetCLKOUTSource
+                0x00001adc       0x3c D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+                0x00001adc                Chip_Clock_SetCLKOUTSource
+ .text.Chip_Clock_GetWDTOSCRate
+                0x00001b18       0x1c D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+                0x00001b18                Chip_Clock_GetWDTOSCRate
+ .text.Chip_Clock_GetSystemPLLInClockRate
+                0x00001b34       0x50 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+                0x00001b34                Chip_Clock_GetSystemPLLInClockRate
+ .text.Chip_Clock_GetSystemPLLOutClockRate
+                0x00001b84       0x24 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+                0x00001b84                Chip_Clock_GetSystemPLLOutClockRate
+ .text.Chip_Clock_GetMainClockRate
+                0x00001ba8       0x64 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+                0x00001ba8                Chip_Clock_GetMainClockRate
+ .text.Chip_Clock_GetSystemClockRate
+                0x00001c0c       0x24 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+                0x00001c0c                Chip_Clock_GetSystemClockRate
+ .text.Chip_Clock_EnablePeriphClock
+                0x00001c30       0x34 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .text.Chip_GPIO_Init
+                0x00001c64       0x14 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+                0x00001c64                Chip_GPIO_Init
+ .text.Chip_SYSCTL_PowerDown
+                0x00001c78       0x44 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(syscon_8xx.o)
+                0x00001c78                Chip_SYSCTL_PowerDown
+ .text.Chip_SYSCTL_PowerUp
+                0x00001cbc       0x48 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(syscon_8xx.o)
+                0x00001cbc                Chip_SYSCTL_PowerUp
+ .text.__main   0x00001d04       0x12 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr__main.o)
+                0x00001d04                __main
+ *fill*         0x00001d16        0x2 00
+ .text._initio  0x00001d18       0xa0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+                0x00001d18                _initio
+ .text.setvbuf  0x00001db8       0x48 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(setvbuf.o)
+                0x00001db8                setvbuf
+ .text.memset   0x00001e00        0x8 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+                0x00001e00                memset
+ .text._deferredlazyseek
+                0x00001e08       0x44 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o)
+                0x00001e08                _deferredlazyseek
+ .text._fdopen  0x00001e4c       0x78 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fdopen.o)
+                0x00001e4c                _fdopen
+ .text._fflush  0x00001ec4       0x60 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fflush.o)
+                0x00001ec4                _fflush
+ .text._Cwritebuf
+                0x00001f24       0x6c d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_writebuf.o)
+                0x00001f24                _Cwritebuf
+ .text.malloc   0x00001f90       0xbc d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+                0x00001f90                malloc
+ .text.free     0x0000204c       0x10 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+                0x0000204c                free
+ .text._Csys_alloc
+                0x0000205c       0x20 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+                0x0000205c                _Csys_alloc
+ .text.fclose   0x0000207c       0x70 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o)
+                0x0000207c                fclose
+ .text.fflush   0x000020ec       0x38 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fflush.o)
+                0x000020ec                fflush
+ .text.fseek    0x00002124       0xf0 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fseek.o)
+                0x00002124                fseek
+ .text.ftell    0x00002214       0x4c d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ftell.o)
+                0x00002214                ftell
+ .text.remove   0x00002260       0x12 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o)
+                0x00002260                remove
+ *fill*         0x00002272        0x2 00
+ .text.strlen   0x00002274       0x58 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(strlen.o)
+                0x00002274                strlen
+ .text._do_fflush
+                0x000022cc       0x48 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_do_fflush.o)
+                0x000022cc                _do_fflush
+ .text.__aeabi_division_uidivmod
+                0x00002314       0x72 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(division.o)
+                0x00002314                __aeabi_uidivmod
+                0x00002314                __aeabi_uidiv
+ .text.__aeabi_division_idiv0
+                0x00002386        0x2 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(division.o)
+                0x00002386                __aeabi_idiv0
+ .text.__aeabi_memset_lowlevel
+                0x00002388       0x2a d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(memcpy.o)
+                0x00002388                __aeabi_lowlevel_memset
+ .text.__sys_appexit
+                0x000023b2        0x4 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_appexit.o)
+                0x000023b2                __sys_appexit
+                0x000023b2                __exit
+ .text.__sys_close
+                0x000023b6        0x6 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_close.o)
+                0x000023b6                __sys_close
+ .text.__sys_flen
+                0x000023bc        0x6 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_flen.o)
+                0x000023bc                __sys_flen
+ .text.__sys_istty
+                0x000023c2        0x6 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_istty.o)
+                0x000023c2                __sys_istty
+ .text.__sys_remove
+                0x000023c8        0x6 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_remove.o)
+                0x000023c8                __sys_remove
+ .text.__sys_seek
+                0x000023ce        0x6 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_seek.o)
+                0x000023ce                __sys_seek
+ .text.__sys_tmpnam
+                0x000023d4        0x6 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_tmpnam.o)
+                0x000023d4                __sys_tmpnam
+ *fill*         0x000023da        0x2 00
+ .text._sbrk    0x000023dc       0x40 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr_sbrk.o)
+                0x000023dc                _sbrk
+ .text.__check_heap_overflow
+                0x0000241c       0x2c d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr_check_heap.o)
+                0x0000241c                __check_heap_overflow
+ *(.rodata .rodata.* .constdata .constdata.*)
+ .rodata.ledBits
+                0x00002448        0x4 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .rodata.OscRateIn
+                0x0000244c        0x4 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+                0x0000244c                OscRateIn
+ .rodata.ExtRateIn
+                0x00002450        0x4 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+                0x00002450                ExtRateIn
+ .rodata.MRT_IRQHandler
+                0x00002454       0x50 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .rodata.wdtOSCRate
+                0x000024a4       0x40 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .rodata.str1.1
+                0x000024e4        0x4 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+ .rodata.str1.1
+                0x000024e8       0x18 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+                0x00002500                . = ALIGN (0x4)
+
+.glue_7         0x00002500        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x00002500        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x00002500        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00002500        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x00002500                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x00002500                __exidx_end = .
+                0x00002500                _etext = .
+
+.mtb_buffer_default
+                0x10000000       0x20
+ *(.mtb*)
+ .mtb.$RAM1     0x10000000       0x20 ./example/src/sensor_test_main.o
+                0x10000000                __mtb_buffer__
+
+.uninit_RESERVED
+                0x10000020        0x0
+ *(.bss.$RESERVED*)
+                0x10000020                . = ALIGN (0x4)
+                0x10000020                _end_uninit_RESERVED = .
+
+.data           0x10000020        0x4 load address 0x00002500
+ FILL mask 0xff
+                0x10000020                _data = .
+ *(vtable)
+ *(.data*)
+ .data.tempFlag
+                0x10000020        0x1 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+                0x10000024                . = ALIGN (0x4)
+ *fill*         0x10000021        0x3 ff
+                0x10000024                _edata = .
+
+.bss            0x10000028      0x1bc load address 0x00002504
+                0x10000028                _bss = .
+ *(.bss*)
+ .bss.sysTick   0x10000028        0x4 ./example/src/sensor_test_main.o
+ .bss.OW_sensorCount
+                0x1000002c        0x2 ./example/src/sensor_test_main.o
+                0x1000002c                OW_sensorCount
+ .bss.ow_state  0x1000002e        0x1 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .bss.presence  0x1000002f        0x1 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .bss.data_ptr  0x10000030        0x4 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .bss.data_len  0x10000034        0x2 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .bss.data_index
+                0x10000036        0x2 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .bss.cur_byte  0x10000038        0x1 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .bss.bit_pos   0x10000039        0x1 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .bss.single_bit
+                0x1000003a        0x1 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .bss.wait_conv_state
+                0x1000003b        0x1 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .bss.bitbanger
+                0x1000003c        0x4 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+                0x1000003c                bitbanger
+ .bss.read_buf  0x10000040        0xc D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .bss.nLastDiscrepancy_u8
+                0x1000004c        0x1 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .bss.doneFlag  0x1000004d        0x1 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ *fill*         0x1000004e        0x2 00
+ .bss.wr_buf.5894
+                0x10000050        0xc D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .bss.errno     0x1000005c        0x4 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(errno.o)
+                0x1000005c                errno
+ *(COMMON)
+ COMMON         0x10000060       0x32 ./example/src/sensor_test_main.o
+                0x10000060                OW_sensorList
+                0x10000080                temperature
+                0x10000088                sensor_counter
+                0x1000008c                sctTick
+                0x10000090                t_val
+ *fill*         0x10000092        0x2 00
+ COMMON         0x10000094        0x4 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(chip_8xx.o)
+                0x10000094                SystemCoreClock
+ COMMON         0x10000098        0x4 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+                0x10000098                _extra
+ COMMON         0x1000009c      0x140 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+                0x1000009c                __Ciob
+ COMMON         0x100001dc        0x8 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+                0x100001dc                __heaps
+                0x100001e0                __end_of_heap
+                0x100001e4                . = ALIGN (0x4)
+                0x100001e4                _ebss = .
+                0x100001e4                PROVIDE (end, .)
+
+.noinit         0x100001e4        0x0 load address 0x00002504
+                0x100001e4                _noinit = .
+ *(.noinit*)
+                0x100001e4                . = ALIGN (0x4)
+                0x100001e4                _end_noinit = .
+                0x100001e4                PROVIDE (_pvHeapStart, .)
+                0x10001000                PROVIDE (_vStackTop, (__top_RamLoc4 - 0x0))
+OUTPUT(arpel_groovy_sensor_test.axf elf32-littlearm)
+
+.debug_info     0x00000000     0x4d17
+ .debug_info    0x00000000      0x25d ./example/src/cr_startup_lpc8xx.o
+ .debug_info    0x0000025d       0x48 ./example/src/crp.o
+ .debug_info    0x000002a5       0x29 ./example/src/mtb.o
+ .debug_info    0x000002ce      0x7e8 ./example/src/sensor_test_main.o
+ .debug_info    0x00000ab6       0xdb ./example/src/sysinit.o
+ .debug_info    0x00000b91      0xb75 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .debug_info    0x00001706      0x882 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .debug_info    0x00001f88     0x120b D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .debug_info    0x00003193      0x110 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(crc8.o)
+ .debug_info    0x000032a3       0xf3 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(chip_8xx.o)
+ .debug_info    0x00003396      0x7e2 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .debug_info    0x00003b78      0x901 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .debug_info    0x00004479      0x37b D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(swm_8xx.o)
+ .debug_info    0x000047f4      0x523 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(syscon_8xx.o)
+
+.debug_abbrev   0x00000000      0xea9
+ .debug_abbrev  0x00000000       0xf6 ./example/src/cr_startup_lpc8xx.o
+ .debug_abbrev  0x000000f6       0x39 ./example/src/crp.o
+ .debug_abbrev  0x0000012f       0x16 ./example/src/mtb.o
+ .debug_abbrev  0x00000145      0x1fc ./example/src/sensor_test_main.o
+ .debug_abbrev  0x00000341       0x68 ./example/src/sysinit.o
+ .debug_abbrev  0x000003a9      0x1d3 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .debug_abbrev  0x0000057c      0x139 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .debug_abbrev  0x000006b5      0x2ea D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .debug_abbrev  0x0000099f       0x8a D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(crc8.o)
+ .debug_abbrev  0x00000a29       0x79 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(chip_8xx.o)
+ .debug_abbrev  0x00000aa2      0x14f D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .debug_abbrev  0x00000bf1      0x102 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .debug_abbrev  0x00000cf3       0xf9 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(swm_8xx.o)
+ .debug_abbrev  0x00000dec       0xbd D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(syscon_8xx.o)
+
+.debug_loc      0x00000000     0x17eb
+ .debug_loc     0x00000000      0x28f ./example/src/cr_startup_lpc8xx.o
+ .debug_loc     0x0000028f      0x138 ./example/src/sensor_test_main.o
+ .debug_loc     0x000003c7       0x2c ./example/src/sysinit.o
+ .debug_loc     0x000003f3      0x424 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .debug_loc     0x00000817      0x1c8 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .debug_loc     0x000009df      0x680 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .debug_loc     0x0000105f       0x38 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(crc8.o)
+ .debug_loc     0x00001097       0x2c D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(chip_8xx.o)
+ .debug_loc     0x000010c3      0x2c8 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .debug_loc     0x0000138b      0x2a0 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .debug_loc     0x0000162b       0xe0 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(swm_8xx.o)
+ .debug_loc     0x0000170b       0xe0 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(syscon_8xx.o)
+
+.debug_aranges  0x00000000      0x4a0
+ .debug_aranges
+                0x00000000       0x60 ./example/src/cr_startup_lpc8xx.o
+ .debug_aranges
+                0x00000060       0x48 ./example/src/sensor_test_main.o
+ .debug_aranges
+                0x000000a8       0x20 ./example/src/sysinit.o
+ .debug_aranges
+                0x000000c8       0xb8 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .debug_aranges
+                0x00000180       0x60 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .debug_aranges
+                0x000001e0      0x110 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .debug_aranges
+                0x000002f0       0x20 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(crc8.o)
+ .debug_aranges
+                0x00000310       0x20 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(chip_8xx.o)
+ .debug_aranges
+                0x00000330       0x88 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .debug_aranges
+                0x000003b8       0x78 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .debug_aranges
+                0x00000430       0x38 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(swm_8xx.o)
+ .debug_aranges
+                0x00000468       0x38 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(syscon_8xx.o)
+
+.debug_ranges   0x00000000      0x3e0
+ .debug_ranges  0x00000000       0x50 ./example/src/cr_startup_lpc8xx.o
+ .debug_ranges  0x00000050       0x38 ./example/src/sensor_test_main.o
+ .debug_ranges  0x00000088       0x10 ./example/src/sysinit.o
+ .debug_ranges  0x00000098       0xa8 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .debug_ranges  0x00000140       0x50 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .debug_ranges  0x00000190      0x100 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .debug_ranges  0x00000290       0x10 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(crc8.o)
+ .debug_ranges  0x000002a0       0x10 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(chip_8xx.o)
+ .debug_ranges  0x000002b0       0x78 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .debug_ranges  0x00000328       0x68 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .debug_ranges  0x00000390       0x28 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(swm_8xx.o)
+ .debug_ranges  0x000003b8       0x28 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(syscon_8xx.o)
+
+.debug_line     0x00000000     0x49d3
+ .debug_line    0x00000000       0xaf ./example/src/cr_startup_lpc8xx.o
+ .debug_line    0x000000af       0xc9 ./example/src/crp.o
+ .debug_line    0x00000178       0x35 ./example/src/mtb.o
+ .debug_line    0x000001ad      0x700 ./example/src/sensor_test_main.o
+ .debug_line    0x000008ad      0x621 ./example/src/sysinit.o
+ .debug_line    0x00000ece      0x7d1 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .debug_line    0x0000169f      0x6d4 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .debug_line    0x00001d73      0x9e8 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .debug_line    0x0000275b      0x3dd D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(crc8.o)
+ .debug_line    0x00002b38      0x59e D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(chip_8xx.o)
+ .debug_line    0x000030d6      0x6c2 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .debug_line    0x00003798      0x686 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .debug_line    0x00003e1e      0x5db D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(swm_8xx.o)
+ .debug_line    0x000043f9      0x5da D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(syscon_8xx.o)
+
+.debug_macinfo  0x00000000    0x5c0d5
+ .debug_macinfo
+                0x00000000     0x2296 ./example/src/cr_startup_lpc8xx.o
+ .debug_macinfo
+                0x00002296     0x2318 ./example/src/crp.o
+ .debug_macinfo
+                0x000045ae     0x2236 ./example/src/mtb.o
+ .debug_macinfo
+                0x000067e4     0x885c ./example/src/sensor_test_main.o
+ .debug_macinfo
+                0x0000f040     0x839e ./example/src/sysinit.o
+ .debug_macinfo
+                0x000173de     0x83ce D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .debug_macinfo
+                0x0001f7ac     0x8362 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .debug_macinfo
+                0x00027b0e     0x8766 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .debug_macinfo
+                0x00030274     0x3c4a D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(crc8.o)
+ .debug_macinfo
+                0x00033ebe     0x8041 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(chip_8xx.o)
+ .debug_macinfo
+                0x0003beff     0x8041 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .debug_macinfo
+                0x00043f40     0x8041 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .debug_macinfo
+                0x0004bf81     0x809b D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(swm_8xx.o)
+ .debug_macinfo
+                0x0005401c     0x80b9 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(syscon_8xx.o)
+
+.debug_str      0x00000000     0x1d0e
+ .debug_str     0x00000000      0x1ce ./example/src/cr_startup_lpc8xx.o
+                                0x1ec (size before relaxing)
+ .debug_str     0x000001ce       0x1e ./example/src/crp.o
+                                 0xbf (size before relaxing)
+ .debug_str     0x000001ec       0x15 ./example/src/mtb.o
+                                 0xa9 (size before relaxing)
+ .debug_str     0x00000201      0x445 ./example/src/sensor_test_main.o
+                                0x52c (size before relaxing)
+ .debug_str     0x00000646       0x19 ./example/src/sysinit.o
+                                0x165 (size before relaxing)
+ .debug_str     0x0000065f      0x840 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+                                0x9ce (size before relaxing)
+ .debug_str     0x00000e9f      0x37d D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+                                0x8c9 (size before relaxing)
+ .debug_str     0x0000121c      0x4cf D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+                                0xc8c (size before relaxing)
+ .debug_str     0x000016eb       0x57 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(crc8.o)
+                                0x17d (size before relaxing)
+ .debug_str     0x00001742       0x77 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(chip_8xx.o)
+                                0x16b (size before relaxing)
+ .debug_str     0x000017b9      0x340 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+                                0x7f0 (size before relaxing)
+ .debug_str     0x00001af9       0xde D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+                                0x650 (size before relaxing)
+ .debug_str     0x00001bd7       0x93 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(swm_8xx.o)
+                                0x4f5 (size before relaxing)
+ .debug_str     0x00001c6a       0xa4 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(syscon_8xx.o)
+                                0x3e3 (size before relaxing)
+
+.comment        0x00000000       0xe0
+ .comment       0x00000000       0x70 ./example/src/cr_startup_lpc8xx.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./example/src/crp.o
+ .comment       0x00000000       0x71 ./example/src/mtb.o
+ .comment       0x00000000       0x71 ./example/src/sensor_test_main.o
+ .comment       0x00000000       0x71 ./example/src/sysinit.o
+ .comment       0x00000000       0x71 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .comment       0x00000000       0x71 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .comment       0x00000000       0x71 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .comment       0x00000000       0x71 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(crc8.o)
+ .comment       0x00000000       0x71 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(chip_8xx.o)
+ .comment       0x00000000       0x71 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .comment       0x00000000       0x71 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .comment       0x00000000       0x71 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(swm_8xx.o)
+ .comment       0x00000000       0x71 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(syscon_8xx.o)
+ .comment       0x00000070       0x70 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr__main.o)
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(setvbuf.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fdopen.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fflush.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_writebuf.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fflush.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fseek.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ftell.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(strlen.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_do_fflush.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(errno.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_appexit.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_close.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_flen.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_istty.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_read.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_remove.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_rename.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_seek.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_tmpnam.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr_sbrk.o)
+ .comment       0x00000000       0x71 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr_check_heap.o)
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x31 ./example/src/cr_startup_lpc8xx.o
+ .ARM.attributes
+                0x00000031       0x31 ./example/src/crp.o
+ .ARM.attributes
+                0x00000062       0x31 ./example/src/mtb.o
+ .ARM.attributes
+                0x00000093       0x31 ./example/src/sensor_test_main.o
+ .ARM.attributes
+                0x000000c4       0x31 ./example/src/sysinit.o
+ .ARM.attributes
+                0x000000f5       0x31 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .ARM.attributes
+                0x00000126       0x31 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .ARM.attributes
+                0x00000157       0x31 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .ARM.attributes
+                0x00000188       0x31 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(crc8.o)
+ .ARM.attributes
+                0x000001b9       0x31 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(chip_8xx.o)
+ .ARM.attributes
+                0x000001ea       0x31 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .ARM.attributes
+                0x0000021b       0x31 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .ARM.attributes
+                0x0000024c       0x31 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(swm_8xx.o)
+ .ARM.attributes
+                0x0000027d       0x31 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(syscon_8xx.o)
+ .ARM.attributes
+                0x000002ae       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr__main.o)
+ .ARM.attributes
+                0x000002df       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(initio.o)
+ .ARM.attributes
+                0x00000310       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(setvbuf.o)
+ .ARM.attributes
+                0x00000341       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(stdio.o)
+ .ARM.attributes
+                0x00000372       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memset.o)
+ .ARM.attributes
+                0x000003a3       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__fillbuf.o)
+ .ARM.attributes
+                0x000003d4       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_deferredlazyseek.o)
+ .ARM.attributes
+                0x00000405       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fdopen.o)
+ .ARM.attributes
+                0x00000436       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_fflush.o)
+ .ARM.attributes
+                0x00000467       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_writebuf.o)
+ .ARM.attributes
+                0x00000498       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(alloc.o)
+ .ARM.attributes
+                0x000004c9       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fclose.o)
+ .ARM.attributes
+                0x000004fa       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fflush.o)
+ .ARM.attributes
+                0x0000052b       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(fseek.o)
+ .ARM.attributes
+                0x0000055c       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(ftell.o)
+ .ARM.attributes
+                0x0000058d       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(remove.o)
+ .ARM.attributes
+                0x000005be       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(strlen.o)
+ .ARM.attributes
+                0x000005ef       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(memcpy.o)
+ .ARM.attributes
+                0x00000620       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(__init_alloc.o)
+ .ARM.attributes
+                0x00000651       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(_do_fflush.o)
+ .ARM.attributes
+                0x00000682       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_c.a(errno.o)
+ .ARM.attributes
+                0x000006b3       0x21 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(division.o)
+ .ARM.attributes
+                0x000006d4       0x21 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv6-m\libcr_eabihelpers.a(memcpy.o)
+ .ARM.attributes
+                0x000006f5       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_appexit.o)
+ .ARM.attributes
+                0x00000726       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_close.o)
+ .ARM.attributes
+                0x00000757       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_flen.o)
+ .ARM.attributes
+                0x00000788       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_istty.o)
+ .ARM.attributes
+                0x000007b9       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_read.o)
+ .ARM.attributes
+                0x000007ea       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_remove.o)
+ .ARM.attributes
+                0x0000081b       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_rename.o)
+ .ARM.attributes
+                0x0000084c       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_seek.o)
+ .ARM.attributes
+                0x0000087d       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(__sys_tmpnam.o)
+ .ARM.attributes
+                0x000008ae       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr_sbrk.o)
+ .ARM.attributes
+                0x000008df       0x31 d:/travail/wirelesshome/nxp/lpcxpresso_6.1.4_194/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv6-m\libcr_nohost.a(_cr_check_heap.o)
+
+.debug_frame    0x00000000      0xe20
+ .debug_frame   0x00000000       0xec ./example/src/cr_startup_lpc8xx.o
+ .debug_frame   0x000000ec       0xcc ./example/src/sensor_test_main.o
+ .debug_frame   0x000001b8       0x2c ./example/src/sysinit.o
+ .debug_frame   0x000001e4      0x27c D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board.o)
+ .debug_frame   0x00000460      0x120 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(board_sysinit.o)
+ .debug_frame   0x00000580      0x3d8 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(onewire.o)
+ .debug_frame   0x00000958       0x30 D:\Users\Arpel\git\LPCSensorNode\BOARDLib\arpel_groovy_sensor_board_lib\Debug\libarpel_groovy_sensor_board_lib.a(crc8.o)
+ .debug_frame   0x00000988       0x2c D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(chip_8xx.o)
+ .debug_frame   0x000009b4      0x1bc D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(clock_8xx.o)
+ .debug_frame   0x00000b70      0x190 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(gpio_8xx.o)
+ .debug_frame   0x00000d00       0x90 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(swm_8xx.o)
+ .debug_frame   0x00000d90       0x90 D:\Users\Arpel\Documents\LPCXpresso_6.1.4_194\workspace\lpc_chip_8xx_lib\Debug\liblpc_chip_8xx_lib.a(syscon_8xx.o)
