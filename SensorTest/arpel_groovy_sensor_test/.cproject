@@ -130,7 +130,7 @@
 								<option id="gnu.c.compiler.option.include.paths.112334932" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/example/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lpc_chip_8xx_lib/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/nxp_lpcxpresso_812_board_lib/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/arpel_groovy_sensor_board_lib/inc}&quot;"/>
 								</option>
 								<inputType id="com.crt.advproject.compiler.input.244877055" superClass="com.crt.advproject.compiler.input"/>
 							</tool>
@@ -155,14 +155,15 @@
 								</option>
 								<option id="com.crt.advproject.link.gcc.hdrlib.1059506469" name="Use C library" superClass="com.crt.advproject.link.gcc.hdrlib" value="com.crt.advproject.gcc.link.hdrlib.codered.nohost" valueType="enumerated"/>
 								<option id="gnu.c.link.option.libs.191395255" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
-									<listOptionValue builtIn="false" value="nxp_lpcxpresso_812_board_lib"/>
+									<listOptionValue builtIn="false" value="arpel_groovy_sensor_board_lib"/>
 									<listOptionValue builtIn="false" value="lpc_chip_8xx_lib"/>
 								</option>
 								<option id="gnu.c.link.option.paths.1490070912" name="Library search path (-L)" superClass="gnu.c.link.option.paths" valueType="libPaths">
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/nxp_lpcxpresso_812_board_lib/Release}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/arpel_groovy_sensor_board_lib/Release}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lpc_chip_8xx_lib/Release}&quot;"/>
 								</option>
 								<option id="com.crt.advproject.link.crpenable.109603550" name="Enable Code Read Protect" superClass="com.crt.advproject.link.crpenable" value="true" valueType="boolean"/>
+								<option id="com.crt.advproject.link.gcc.multicore.slave.339992894" name="Multicore slave" superClass="com.crt.advproject.link.gcc.multicore.slave"/>
 								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.953337252" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -171,7 +172,7 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="example"/>
+						<entry excluding="src/saved_sensor_test_main.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="example"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>

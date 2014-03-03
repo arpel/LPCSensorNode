@@ -33,6 +33,7 @@
 #include <stdio.h>
 
 #include "onewire.h"
+#include "RF12.h"
 
 #include <cr_mtb_buffer.h>
 __CR_MTB_BUFFER(32);
@@ -40,6 +41,16 @@ __CR_MTB_BUFFER(32);
 /*****************************************************************************
  * Private types/enumerations/variables
  ****************************************************************************/
+#define destNodeID 1      // Valid for both rootNode and confNode
+#define productionNetwork 100
+#define configurationNetwork 200
+//#define network 100      // RF12 Network group
+#define freq RF12_868MHZ // Frequency of RFM12B module
+
+#define NEED_ACK 0
+#define RETRY_PERIOD 5    // How soon to retry (in seconds) if ACK didn't come in
+#define RETRY_LIMIT 5     // Maximum number of times to retry
+#define ACK_TIME 100       // Number of milliseconds to wait for an ack
 
 #define TICKRATE_HZ (5)	/* 10 ticks per second */
 #define TIMEOUT_TICKS (100 * TICKRATE_HZ)	/* 10 seconds */
@@ -58,9 +69,51 @@ uint16_t t_val; //temperature value
 short temperature[OW_MAX_SENSORS]; //temperature *10 (to avoid float)
 uint8_t sensor_counter; //counter for sensor loop
 
+typedef struct {
+  uint8_t nodeid;          // Node ID
+  uint8_t id;              // Packet ID
+  uint8_t status;          //
+  uint8_t nbCommands;
+  uint8_t lastCommand;
+  unsigned short supplyV; // Supply voltage
+  uint8_t numsensors;
+} Payload_t;
+
+Payload_t staticpayload;
 /*****************************************************************************
  * Private functions
  ****************************************************************************/
+//--------------------------------------------------------------------------------------------------
+// Send payload data via RF
+//--------------------------------------------------------------------------------------------------
+void RF_AirSend(Payload_t *pl){
+  //bitClear(PRR, PRUSI); // enable USI h/w
+  //digitalWrite(LEDpin, LOW);
+  uint8_t i;
+  uint8_t header;
+
+  for (i = 0; i <= RETRY_LIMIT; ++i) {  // tx and wait for ack up to RETRY_LIMIT times
+       rf12_sleep(RF12_WAKEUP);
+
+       header = RF12_HDR_ACK | RF12_HDR_DST | destNodeID;
+
+       rf12_sendNow(header, pl, sizeof *pl);
+       rf12_sendWait(2); // Wait for RF to finish sending while in standby mode
+#if NEED_ACK
+         byte acked = waitForAck();  // Wait for ACK
+#endif
+       rf12_sleep(RF12_SLEEP);
+#if NEED_ACK
+         if (acked) { break; }      // Return if ACK received
+         loseSomeTime(RETRY_PERIOD * 500);     // If no ack received wait and try again
+#else
+          break;
+#endif
+  }
+
+  //digitalWrite(LEDpin, HIGH);
+  //bitSet(PRR, PRUSI); // disable USI h/w
+}
 
 /*****************************************************************************
  * Public functions
@@ -81,6 +134,9 @@ void SysTick_Handler(void)
 			temperature[sensor_counter] = (t_val * 5); //read uint to int
 		}
 	}
+
+	staticpayload.id += 1;
+	RF_AirSend(&staticpayload);
 }
 
 
@@ -90,7 +146,7 @@ void SysTick_Handler(void)
  */
 int main(void)
 {
-
+	int count = 0;
 	SystemCoreClockUpdate();
 	Board_Init();
 
@@ -109,6 +165,14 @@ int main(void)
 		OW_sensorCount = ow_find_devices(OW_sensorList, OW_MAX_SENSORS);
 	}
 
+/**/
+	staticpayload.nodeid = 22;
+	rf12_initialize(22, freq, productionNetwork, 1600); // Initialize RFM12 with settings defined above
+	// Adjust low battery voltage to 2.2V
+	rf12_control(0xC040);
+	rf12_sleep(RF12_SLEEP);  // Put the RFM12 to sleep
+
+	/**/
 
 	while (1) {
 		__WFI();

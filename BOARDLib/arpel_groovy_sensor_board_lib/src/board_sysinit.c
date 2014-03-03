@@ -160,6 +160,13 @@ void Board_SystemInit(void)
 	SystemSetupMuxing();
 	SystemSetupClocking();
 
+	/**/
+	Chip_SWM_MovablePinAssign(SWM_SPI0_SCK_IO, 15);
+	Chip_SWM_MovablePinAssign(SWM_SPI0_MOSI_IO, 16);
+	Chip_SWM_MovablePinAssign(SWM_SPI0_MISO_IO, 17);
+	Chip_SWM_MovablePinAssign(SWM_SPI0_SSEL_IO, 14);
+	/**/
+
 	/* Disable the clock to the Switch Matrix to save power */
 	Chip_Clock_DisablePeriphClock(SYSCTL_CLOCK_SWM);
 
