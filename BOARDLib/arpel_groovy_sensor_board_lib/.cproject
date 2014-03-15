@@ -45,6 +45,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lpc_chip_8xx_lib/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/inc}&quot;"/>
 								</option>
+								<option id="com.crt.advproject.gcc.lib.debug.option.optimization.level.101172202" name="Optimization Level" superClass="com.crt.advproject.gcc.lib.debug.option.optimization.level" value="gnu.c.optimization.level.none" valueType="enumerated"/>
 								<inputType id="com.crt.advproject.compiler.input.1431060256" superClass="com.crt.advproject.compiler.input"/>
 							</tool>
 							<tool id="com.crt.advproject.gas.lib.debug.1215243968" name="MCU Assembler" superClass="com.crt.advproject.gas.lib.debug">
@@ -60,7 +61,7 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="inc"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="lpc8xx_uart.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -71,8 +72,11 @@
 				<externalSettings>
 					<externalSetting>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/nxp_lpcxpresso_812_board_lib"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/arpel_groovy_sensor_board_lib"/>
 						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/nxp_lpcxpresso_812_board_lib/Release"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/arpel_groovy_sensor_board_lib/Release"/>
 						<entry flags="RESOLVED" kind="libraryFile" name="nxp_lpcxpresso_812_board_lib" srcPrefixMapping="" srcRootPath=""/>
+						<entry flags="RESOLVED" kind="libraryFile" name="arpel_groovy_sensor_board_lib" srcPrefixMapping="" srcRootPath=""/>
 					</externalSetting>
 				</externalSettings>
 				<extensions>
@@ -123,7 +127,7 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="inc"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="lpc8xx_uart.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -140,8 +144,11 @@
 	<storageModule moduleId="com.crt.config">
 		<projectStorage>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&#13;
 &lt;TargetConfig&gt;&#13;
-&lt;Properties property_0="" property_2="LPC800_16.cfx" property_3="NXP" property_4="LPC812" property_count="5" version="60100"/&gt;&#13;
-&lt;infoList vendor="NXP"&gt;&lt;info chip="LPC812" flash_driver="LPC800_16.cfx" match_id="0x8122" name="LPC812" stub="crt_emu_cm3_gen"&gt;&lt;chip&gt;&lt;name&gt;LPC812&lt;/name&gt;&#13;
+&lt;Properties property_0="" property_2="LPC800_16.cfx" property_3="NXP" property_4="LPC812" property_count="5" version="70002"/&gt;&#13;
+&lt;infoList vendor="NXP"&gt;&#13;
+&lt;info chip="LPC812" flash_driver="LPC800_16.cfx" match_id="0x8122" name="LPC812" stub="crt_emu_cm3_gen"&gt;&#13;
+&lt;chip&gt;&#13;
+&lt;name&gt;LPC812&lt;/name&gt;&#13;
 &lt;family&gt;LPC8xx&lt;/family&gt;&#13;
 &lt;vendor&gt;NXP (formerly Philips)&lt;/vendor&gt;&#13;
 &lt;reset board="None" core="Real" sys="Real"/&gt;&#13;
@@ -173,7 +180,8 @@
 &lt;peripheralInstance derived_from="GPIO-PORT" determined="infoFile" id="GPIO-PORT" location="0xa0000000"/&gt;&#13;
 &lt;peripheralInstance derived_from="PIN-INT" determined="infoFile" id="PIN-INT" location="0xa0004000"/&gt;&#13;
 &lt;/chip&gt;&#13;
-&lt;processor&gt;&lt;name gcc_name="cortex-m0"&gt;Cortex-M0&lt;/name&gt;&#13;
+&lt;processor&gt;&#13;
+&lt;name gcc_name="cortex-m0"&gt;Cortex-M0&lt;/name&gt;&#13;
 &lt;family&gt;Cortex-M&lt;/family&gt;&#13;
 &lt;/processor&gt;&#13;
 &lt;link href="nxp_lpc8xx_peripheral.xme" show="embed" type="simple"/&gt;&#13;

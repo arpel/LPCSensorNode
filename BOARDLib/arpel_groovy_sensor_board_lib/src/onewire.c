@@ -159,11 +159,16 @@ uint8_t ow_reset() {
 	Chip_MRT_SetEnabled(LPC_MRT_CH1);
 	Chip_MRT_SetEnabled(LPC_MRT_CH2);
 
+	Chip_MRT_IntClear(LPC_MRT_CH0);
+	Chip_MRT_IntClear(LPC_MRT_CH1);
+	Chip_MRT_IntClear(LPC_MRT_CH2);
+
 	OW_OUTPUT; // set to output
 	OW_LOW; // drive low
 
 	while (ow_state != RESET_COMPLETE)
-		; // wait for reset completed
+		__WFI();
+		//; // wait for reset completed
 	return presence;
 }
 

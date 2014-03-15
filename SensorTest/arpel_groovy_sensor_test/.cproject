@@ -40,6 +40,7 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/lpc_chip_8xx_lib/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/arpel_groovy_sensor_board_lib/inc}&quot;"/>
 								</option>
+								<option id="com.crt.advproject.gcc.exe.debug.option.optimization.level.159433582" name="Optimization Level" superClass="com.crt.advproject.gcc.exe.debug.option.optimization.level" value="gnu.c.optimization.level.none" valueType="enumerated"/>
 								<inputType id="com.crt.advproject.compiler.input.1865578019" superClass="com.crt.advproject.compiler.input"/>
 							</tool>
 							<tool id="com.crt.advproject.gas.exe.debug.554242806" name="MCU Assembler" superClass="com.crt.advproject.gas.exe.debug">
@@ -79,12 +80,6 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
-					<fileInfo id="com.crt.advproject.config.exe.debug.829373555.example/src/cr_startup_lpc8xx.c" name="cr_startup_lpc8xx.c" rcbsApplicability="disable" resourcePath="example/src/cr_startup_lpc8xx.c" toolsToInvoke="com.crt.advproject.gcc.exe.debug.1078924939.1152303530">
-						<tool id="com.crt.advproject.gcc.exe.debug.1078924939.1152303530" name="MCU C Compiler" superClass="com.crt.advproject.gcc.exe.debug.1078924939">
-							<option id="com.crt.advproject.gcc.exe.debug.option.optimization.level.408807558" name="Optimization Level" superClass="com.crt.advproject.gcc.exe.debug.option.optimization.level" value="gnu.c.optimization.level.size" valueType="enumerated"/>
-							<inputType id="com.crt.advproject.compiler.input.591259752" superClass="com.crt.advproject.compiler.input"/>
-						</tool>
-					</fileInfo>
 					<sourceEntries>
 						<entry excluding="src/saved_sensor_test_main.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="example"/>
 					</sourceEntries>
@@ -186,8 +181,11 @@
 	<storageModule moduleId="com.crt.config">
 		<projectStorage>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&#13;
 &lt;TargetConfig&gt;&#13;
-&lt;Properties property_0="" property_2="LPC800_16.cfx" property_3="NXP" property_4="LPC812" property_count="5" version="60100"/&gt;&#13;
-&lt;infoList vendor="NXP"&gt;&lt;info chip="LPC812" flash_driver="LPC800_16.cfx" match_id="0x8122" name="LPC812" stub="crt_emu_cm3_gen"&gt;&lt;chip&gt;&lt;name&gt;LPC812&lt;/name&gt;&#13;
+&lt;Properties property_0="" property_2="LPC800_16.cfx" property_3="NXP" property_4="LPC812" property_count="5" version="70002"/&gt;&#13;
+&lt;infoList vendor="NXP"&gt;&#13;
+&lt;info chip="LPC812" flash_driver="LPC800_16.cfx" match_id="0x8122" name="LPC812" stub="crt_emu_cm3_gen"&gt;&#13;
+&lt;chip&gt;&#13;
+&lt;name&gt;LPC812&lt;/name&gt;&#13;
 &lt;family&gt;LPC8xx&lt;/family&gt;&#13;
 &lt;vendor&gt;NXP (formerly Philips)&lt;/vendor&gt;&#13;
 &lt;reset board="None" core="Real" sys="Real"/&gt;&#13;
@@ -197,29 +195,30 @@
 &lt;memory id="Periph" is_volatile="true" type="Peripheral"/&gt;&#13;
 &lt;memoryInstance derived_from="Flash" id="MFlash16" location="0x0" size="0x4000"/&gt;&#13;
 &lt;memoryInstance derived_from="RAM" id="RamLoc4" location="0x10000000" size="0x1000"/&gt;&#13;
-&lt;peripheralInstance derived_from="V6M_NVIC" id="NVIC" location="0xe000e000"/&gt;&#13;
-&lt;peripheralInstance derived_from="V6M_DCR" id="DCR" location="0xe000edf0"/&gt;&#13;
-&lt;peripheralInstance derived_from="WWDT" id="WWDT" location="0x40000000"/&gt;&#13;
-&lt;peripheralInstance derived_from="MRT" id="MRT" location="0x40004000"/&gt;&#13;
-&lt;peripheralInstance derived_from="WKT" id="WKT" location="0x40008000"/&gt;&#13;
-&lt;peripheralInstance derived_from="SWM" id="SWM" location="0x4000c000"/&gt;&#13;
-&lt;peripheralInstance derived_from="PMU" id="PMU" location="0x40020000"/&gt;&#13;
-&lt;peripheralInstance derived_from="CMP" id="CMP" location="0x40024000"/&gt;&#13;
-&lt;peripheralInstance derived_from="FLASHCTRL" id="FLASHCTRL" location="0x40040000"/&gt;&#13;
-&lt;peripheralInstance derived_from="IOCON" id="IOCON" location="0x40044000"/&gt;&#13;
-&lt;peripheralInstance derived_from="SYSCON" id="SYSCON" location="0x40048000"/&gt;&#13;
-&lt;peripheralInstance derived_from="I2C" id="I2C" location="0x40050000"/&gt;&#13;
-&lt;peripheralInstance derived_from="SPI0" id="SPI0" location="0x40058000"/&gt;&#13;
-&lt;peripheralInstance derived_from="SPI1" id="SPI1" location="0x4005c000"/&gt;&#13;
-&lt;peripheralInstance derived_from="USART0" id="USART0" location="0x40064000"/&gt;&#13;
-&lt;peripheralInstance derived_from="USART1" id="USART1" location="0x40068000"/&gt;&#13;
-&lt;peripheralInstance derived_from="USART2" id="USART2" location="0x4006c000"/&gt;&#13;
-&lt;peripheralInstance derived_from="CRC" id="CRC" location="0x50000000"/&gt;&#13;
-&lt;peripheralInstance derived_from="SCT" id="SCT" location="0x50004000"/&gt;&#13;
-&lt;peripheralInstance derived_from="GPIO-PORT" id="GPIO-PORT" location="0xa0000000"/&gt;&#13;
-&lt;peripheralInstance derived_from="PIN-INT" id="PIN-INT" location="0xa0004000"/&gt;&#13;
+&lt;peripheralInstance derived_from="V6M_NVIC" determined="infoFile" id="NVIC" location="0xe000e000"/&gt;&#13;
+&lt;peripheralInstance derived_from="V6M_DCR" determined="infoFile" id="DCR" location="0xe000edf0"/&gt;&#13;
+&lt;peripheralInstance derived_from="WWDT" determined="infoFile" id="WWDT" location="0x40000000"/&gt;&#13;
+&lt;peripheralInstance derived_from="MRT" determined="infoFile" id="MRT" location="0x40004000"/&gt;&#13;
+&lt;peripheralInstance derived_from="WKT" determined="infoFile" id="WKT" location="0x40008000"/&gt;&#13;
+&lt;peripheralInstance derived_from="SWM" determined="infoFile" id="SWM" location="0x4000c000"/&gt;&#13;
+&lt;peripheralInstance derived_from="PMU" determined="infoFile" id="PMU" location="0x40020000"/&gt;&#13;
+&lt;peripheralInstance derived_from="CMP" determined="infoFile" id="CMP" location="0x40024000"/&gt;&#13;
+&lt;peripheralInstance derived_from="FLASHCTRL" determined="infoFile" id="FLASHCTRL" location="0x40040000"/&gt;&#13;
+&lt;peripheralInstance derived_from="IOCON" determined="infoFile" id="IOCON" location="0x40044000"/&gt;&#13;
+&lt;peripheralInstance derived_from="SYSCON" determined="infoFile" id="SYSCON" location="0x40048000"/&gt;&#13;
+&lt;peripheralInstance derived_from="I2C" determined="infoFile" id="I2C" location="0x40050000"/&gt;&#13;
+&lt;peripheralInstance derived_from="SPI0" determined="infoFile" id="SPI0" location="0x40058000"/&gt;&#13;
+&lt;peripheralInstance derived_from="SPI1" determined="infoFile" id="SPI1" location="0x4005c000"/&gt;&#13;
+&lt;peripheralInstance derived_from="USART0" determined="infoFile" id="USART0" location="0x40064000"/&gt;&#13;
+&lt;peripheralInstance derived_from="USART1" determined="infoFile" id="USART1" location="0x40068000"/&gt;&#13;
+&lt;peripheralInstance derived_from="USART2" determined="infoFile" id="USART2" location="0x4006c000"/&gt;&#13;
+&lt;peripheralInstance derived_from="CRC" determined="infoFile" id="CRC" location="0x50000000"/&gt;&#13;
+&lt;peripheralInstance derived_from="SCT" determined="infoFile" id="SCT" location="0x50004000"/&gt;&#13;
+&lt;peripheralInstance derived_from="GPIO-PORT" determined="infoFile" id="GPIO-PORT" location="0xa0000000"/&gt;&#13;
+&lt;peripheralInstance derived_from="PIN-INT" determined="infoFile" id="PIN-INT" location="0xa0004000"/&gt;&#13;
 &lt;/chip&gt;&#13;
-&lt;processor&gt;&lt;name gcc_name="cortex-m0"&gt;Cortex-M0&lt;/name&gt;&#13;
+&lt;processor&gt;&#13;
+&lt;name gcc_name="cortex-m0"&gt;Cortex-M0&lt;/name&gt;&#13;
 &lt;family&gt;Cortex-M&lt;/family&gt;&#13;
 &lt;/processor&gt;&#13;
 &lt;link href="nxp_lpc8xx_peripheral.xme" show="embed" type="simple"/&gt;&#13;
