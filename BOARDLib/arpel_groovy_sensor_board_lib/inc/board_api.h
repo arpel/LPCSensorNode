@@ -39,6 +39,8 @@
 extern "C" {
 #endif
 
+int comingFromDeepPowerDown;
+
 /** @defgroup BOARD_COMMON_API BOARD: Common board functions
  * @ingroup BOARD_Common
  * This file contains common board definitions that are shared across

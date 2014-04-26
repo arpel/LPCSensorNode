@@ -114,6 +114,7 @@ STATIC void SystemSetupClocking(void)
 	/* Set main clock source to the system PLL. This will drive 24MHz
 	   for the main clock and 24MHz for the system clock */
 	Chip_Clock_SetMainClockSource(SYSCTL_MAINCLKSRC_PLLOUT);
+
 #endif
 
 	/* Select the CLKOUT clocking source */
@@ -169,7 +170,5 @@ void Board_SystemInit(void)
 
 	/* Disable the clock to the Switch Matrix to save power */
 	Chip_Clock_DisablePeriphClock(SYSCTL_CLOCK_SWM);
-
-	/* IOCON clock left on, but may be turned off if no other IOCON
-	   changes are needed */
+	/* IOCON clock left on, but may be turned off if no other IOCON changes are needed */
 }

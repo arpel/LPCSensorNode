@@ -85,7 +85,7 @@ void UART0_IRQHandler(void) ALIAS(IntDefaultHandler);
 void UART1_IRQHandler(void) ALIAS(IntDefaultHandler);
 void UART2_IRQHandler(void) ALIAS(IntDefaultHandler);
 void I2C_IRQHandler(void) ALIAS(IntDefaultHandler);
-//void SCT_IRQHandler(void) ALIAS(IntDefaultHandler);
+void SCT_IRQHandler(void) ALIAS(IntDefaultHandler);
 void MRT_IRQHandler(void) ALIAS(IntDefaultHandler);
 void CMP_IRQHandler(void) ALIAS(IntDefaultHandler);
 void WDT_IRQHandler(void) ALIAS(IntDefaultHandler);

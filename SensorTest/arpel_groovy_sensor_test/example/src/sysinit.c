@@ -54,6 +54,19 @@ void SystemInit(void)
 	/* Chip specific SystemInit */
 	Chip_SystemInit();
 #else
+	if(LPC_PMU->PCON & PMU_PCON_DPDFLAG)
+	{
+		LPC_PMU->PCON &= ~PMU_PCON_DPDFLAG;
+		comingFromDeepPowerDown = 1;
+
+		/* Back to lightest sleep state for next WFI */
+		LPC_PMU->PCON = PMU_PCON_PM_SLEEP;
+		SCB->SCR = 0x0;
+	} else
+	{
+		comingFromDeepPowerDown = 0;
+	}
+
 	/* Board specific SystemInit */
 	Board_SystemInit();
 #endif

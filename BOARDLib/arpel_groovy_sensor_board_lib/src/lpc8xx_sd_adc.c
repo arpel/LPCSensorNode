@@ -104,12 +104,14 @@ static void acmp_configure(uint32_t vp_channel, uint32_t vn_channel,
 	LPC_CMP ->CTRL = 0;
 	LPC_CMP ->CTRL |= ((vp_channel & 7) << 8) | ((vn_channel & 7) << 11);
 
+#if 0
 	if (is_output_synced) {
 		LPC_CMP ->CTRL |= (1 << 6);
 	} else {
 		/* Disable register access to the comparator to save power*/
 		LPC_SYSCTL ->SYSAHBCLKCTRL &=~(1 << 19);
 	}
+#endif
 }
 
 
@@ -272,9 +274,13 @@ static void sct_deinit(void) {
  * \return -1 if fault detected, 0 otherwise.
  */
 int32_t sdadc_init(uint32_t feedback_pin, uint32_t sdadc_debug_pin) {
+	Chip_Clock_EnablePeriphClock(SYSCTL_CLOCK_SWM);
+
 	pinassign_acmp_i2();
 	pinassign_acmp_o(feedback_pin);
 	pinassign_ctin_0(feedback_pin);
+
+	Chip_Clock_DisablePeriphClock(SYSCTL_CLOCK_SWM);
 #if defined (CONFIG_ENABLE_DEBUG_PIN)
 	pinassign_ctout_0(sdadc_debug_pin);
 #else

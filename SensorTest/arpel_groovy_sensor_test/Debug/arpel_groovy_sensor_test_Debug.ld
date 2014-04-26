@@ -3,7 +3,7 @@
  * (c) Code Red Technologies Ltd, 2008-${year}
  * (c) NXP Semiconductors 2013-${year}
  * Generated linker script file for 2014
- * Created from LPC812 (Sat Mar 15 18:00:21 CET 2014)
+ * Created from LPC812 (Fri Apr 25 19:57:50 CEST 2014)
  * By generic_c.ld on LPCXpresso v7.0.2 [Build 102] [2014-03-11] 
  */
 
@@ -40,14 +40,6 @@ SECTIONS
         
 
         *(.after_vectors*)
-        
-        /* Code Read Protect data */
-        . = 0x000002FC ;
-        PROVIDE(__CRP_WORD_START__ = .) ;
-        KEEP(*(.crp))
-        PROVIDE(__CRP_WORD_END__ = .) ;
-        ASSERT(!(__CRP_WORD_START__ == __CRP_WORD_END__), "Linker CRP Enabled, but no CRP_WORD provided within application");
-        /* End of Code Read Protect */
         
     } >MFlash16
     
